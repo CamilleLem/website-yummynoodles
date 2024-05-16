@@ -1,0 +1,103 @@
+
+
+.menu p .text__redhighlight {
+    color: var(--red-highlight);
+}
+
+.menu h1 {
+    margin-bottom: 0rem;
+    margin-left: 8rem;
+}
+
+.menu p {
+    margin-top: 0.5rem;
+    margin-left: 8rem;
+}
+
+.main-menu img {
+    display: block;
+    margin: 0 auto;
+    width: 8rem;
+    height: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+}
+
+.main-menu {
+    background-color: var(--white);
+    margin: 2rem 8rem;
+   
+}
+
+.menu-entrées {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+.menu-entrées h2 {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+
+.menu-plats {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+.menu-plats h2 {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.menu-desserts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-desserts h2 {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.menu-boissons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.menu-boissons h2 {
+    margin-bottom: 2.5rem;
+    margin-top: 5rem;
+}
+
+.dish__div {
+    margin: 0.5rem 0rem;
+}
+
+.main-menu h2 {
+  
+    text-underline-offset: 0.8rem;
+    text-decoration-thickness: 0.188rem;
+}
+
+@media (max-width: 768px) {
+    .mobile__display {
+        display: none;
+    } 
+    
+    .dish__div p {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .main-menu h2 {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+

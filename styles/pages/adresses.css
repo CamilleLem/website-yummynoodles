@@ -1,0 +1,51 @@
+
+
+.adresses-conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    margin: 3rem 5rem;
+}
+
+.adresses h2 {
+    text-align: center;
+    margin-top: 8.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .savoir__faire p {
+        text-align: center;
+    }
+}
+
+
+@media (max-width :768px) {
+
+    .adresses-conteneur {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin: auto;
+    }
+}
+
+@media (max-width :768px) {
+
+    .adresses-conteneur2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin: auto;
+        padding-left: 3.5rem;
+    }
+}
+
+
+
+

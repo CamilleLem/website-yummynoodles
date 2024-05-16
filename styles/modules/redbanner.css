@@ -1,0 +1,15 @@
+
+.red__banner {
+    text-align: center;
+    padding: 3rem 3rem;
+    background-color: var(--red-highlight);
+    color: var(--white);
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    font-weight: var(--body-highlight-font-weight);
+}
+
+.red__banner p,
+.red__banner a {
+  margin-bottom: 1rem;
+}
