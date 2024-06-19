@@ -8,6 +8,15 @@
     margin: 3rem 5rem;
 }
 
+.adresses-conteneur2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    margin: 3rem 5rem;
+}
+
+
 .adresses h2 {
     text-align: center;
     margin-top: 8.5rem;
